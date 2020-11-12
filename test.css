@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 1000px;
+    overflow-x:hidden;
+}
+input{
+    outline: none;
+}
+.body{
+    position: relative;
+    padding: 0 20px 32px 20px;
+    margin-top: 16px;
+}
+.body-image{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1060px;
+    height: 420px;
+}
+.discover{
+    width: 504px;
+}
+h1{
+    font-family: sans-serif;
+    margin: 0 0 16px;
+    padding: 32px 0 0;
+    font-size: 56px;
+    font-weight: 800;
+    line-height: 1.1;
+    letter-spacing: -4px;
+}
+.logo{
+    padding: 8px;
+}
+.pic-logo{
+    margin: 0;
+    margin: 0px 24px;
+    display: flex;
+    height: 48px;
+    padding-top: 7px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    z-index: 1;
+}
+.login{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+.log-in{
+    padding: 8px 12px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.log-in:hover {
+    color: rgb(83, 134, 136);
+}
+.css-5tqg0u{
+    height: 380px;
+    width: 809.39px;
+    position: absolute;
+    top: 0;
+    right: -5px;
+}
+.css-soyr0r{
+    position: absolute;
+    right: 44%;
+    left: auto;
+    top: -378px;
+    height: auto;
+    z-index: -1;
+}
+.css-1ua7kpk{
+    position: absolute;
+    right: -111px;
+    top: -161px;
+    height: auto;
+    z-index: -1;
+}
+.css-xzwpc6{
+    position: absolute;
+    left: 0;
+    top: 300px;
+    display: inline;
+    z-index: -1;
+    
+}
+.css-1yb96iz{
+    position: absolute;
+    right: 0;
+    top: 500px;
+    display: inline;
+    z-index: -1;
+}
+.button1{
+    text-decoration: none;
+    background-color: rgb(246, 88, 88);
+    color: white;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    margin-top: 24px;
+    font-family: sans-serif;
+    cursor: pointer;
+    display: inline-flex;
+    width: 205.28px;
+    height: 56px;
+    align-items: center;
+    z-index: 1;
+}
+.button1:hover {
+    background-color:  #f77070;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+    height: 48px;
+    flex-grow: 1;
+}
+::placeholder{
+    opacity: 0.75;
+}
+.box-main{
+    display: flex;
+    justify-content: center;
+}
+.box-border{
+    margin: 16px 0 0;
+    padding: 17px 16px 17px 16px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1060px;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.12);
+    border: none;
+    border-radius: 8px;
+    background-color: white;
+}
+.faSearch{
+    position: absolute;
+    padding-left: 8px;
+}
+.faMap{
+    position: absolute;
+    margin-left: 11px;
+}
+.searchBox:hover{
+    border-color: #858585;
+}
+.searchBox:focus{
+    border-color: #008294;
+}
+.textBox:hover{
+    border-color: #858585;
+    border-left: none;
+}
+.textBox:focus{
+    border-color: #008294;
+}
+.search{
+    position: relative;   
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+}
+.text{
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.searchBox{
+    font-size: 16px;
+    border: solid 1px rgb(170, 168, 168);
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    padding: 8px 16px 8px 32px;
+    height: 48px;
+    width: 100%;
+}
+.textBox{
+    border: solid 1px rgb(170, 168, 168);
+    border-radius: 8px;
+    border-left: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 8px 16px 8px 32px;
+    height: 48px;
+    width: 300px;
+}
+.searchButton{
+    text-decoration: none;
+    color: #008294;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #008294;
+    border-radius: 8px;
+    padding: 8px 16px;
+    height: 48px;
+    width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+
+}
+
+.searchButton:hover{
+    color: white;
+    background-color: #008294;
+    transition: all 0.15s;
+}
